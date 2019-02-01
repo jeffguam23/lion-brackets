@@ -1,0 +1,119 @@
+#header #logo img {
+    margin: 0;
+    width: 70px;
+}
+
+@media (max-width: 673px){
+    #logo {
+    margin-left: 10px;
+    }
+}
+.main-menu {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 0.5px solid #39353e;
+}
+#mobile-nav-toggle {
+    top: 15px;
+    font-size: 38px;
+    right: 0px;
+}
+#header #logo img {
+        max-height: 60px
+    }
+.fas{
+    font-size: 30px;
+    color: #F7631B;
+    padding-right: 13px;
+}
+    
+  
+.banner-area {
+    background: url(../img/contact.-banner.jpg) right;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;    
+    background-attachment: fixed;    
+}
+.footer-social a {
+    background: rgba(255,255,255,0.1);
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}  
+.footer-social a i {
+    vertical-align: bottom;
+}
+.footer-bottom {
+    display: none
+}
+.footer-social{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.cta-two-area {
+    background: url(../img/happy-girl.jpg) right no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;   
+    background-attachment: fixed;
+    padding: 150px 0px;
+    
+}
+.cta-two-area .overlay-bg {
+    background: rgba(4,9,30,0.23);
+}
+.cta-two-area .cta-right {
+    text-align: right;
+    margin-top: 8px;
+}
+.titulo-header{
+    text-align: center;
+    padding-left: 7px;
+}
+.titulo-header h4, h5{
+ color: #FFF;   
+}
+.titulo-header h4{
+    font-size: .9rem
+}
+
+.titulo-header h5{
+    font-size: .6rem
+}
+@media(max-width:768px){
+    .cta-two-area, .banner-area{
+        background-attachment: scroll
+    }
+}
+@media only screen and (min-width:768px){
+    .titulo-header h5{
+    font-size: 1.2rem;
+    }
+    
+    .titulo-header h4{
+    font-size: 1.4rem
+    }    
+    
+    .nav-menu a:hover{
+    font-size: 20px;
+    transition-duration: .2s;
+    background-color: #FFF;
+    padding: 10px;
+        
+    }
+}
+@media only screen and (max-width:320px){
+    h6{
+      font-size: 11px;  
+    }
+}
+.section-gap {
+    padding: 40px 0;
+}
