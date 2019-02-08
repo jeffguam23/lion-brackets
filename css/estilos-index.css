@@ -275,3 +275,12 @@
 .single-footer-widget ul li a {
     color: #fff;
 }
+.icon-area{
+     text-align: center   
+}
+.icon-area img{
+    padding: 0px 60px;
+}
+.icons-area-info {
+    padding: 0px 0px;
+}
