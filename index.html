@@ -420,85 +420,6 @@ telefono del ministerio de educacion quito, direccion ministerio de educacion qu
 			</section>
 			<!-- End review Area -->	
 			
-			
-
-			<!-- Start blog Area -->
-			<section id="noticias" class="blog-area section-gap" >
-				<div class="container">
-					<div class="row d-flex justify-content-center">
-						<div class="menu-content pb-70 col-lg-8">
-							<div class="title text-center">
-								<h1 class="mb-10">Más información</h1>
-								<p>Aquí podrás encontrar más información acerca de la vida en Ucrania.</p>
-							</div>
-						</div>
-					</div>					
-					<div  class="row">
-						<div class="col-lg-3 col-md-6 single-blog">
-							<div class="thumb">
-								<img class="img-fluid" src="img/b1.jpg" alt="informacion acerca de estudiar en ucrania">								
-							</div>
-							
-							<a href="blog-single.html">
-							<br>
-								<h4>Articulo de 10 razones para viajar a ucrania</h4>
-							</a>
-							<p>
-								primeras cuatro lineas del articulo
-								primeras cuatro lineas del articulo
-								primeras cuatro lineas del articulo primeras cuatro lineas del articulo
-							</p>
-							<a href="#" class="details-btn d-flex justify-content-center align-items-center"><span class="details">Leer mas</span><span class="flecha-derecha fas fa-angle-double-right"></span></a>		
-						</div>
-						<div class="col-lg-3 col-md-6 single-blog">
-							<div class="thumb">
-								<img class="img-fluid" src="img/b2.jpg" alt="">								
-							</div>
-							
-							<a href="blog-single.html">
-							<br>
-								<h4>Articulo sobre la vida en Ucrania</h4>
-							</a>
-							<p>
-								 primeras cuatro lineas del articulo primeras cuatro lineas del articulo primeras cuatro lineas del articulo primeras cuatro lineas del articulo
-							</p>
-							<a href="#" class="details-btn d-flex justify-content-center align-items-center"><span class="details">Leer mas</span><span class="flecha-derecha fas fa-angle-double-right"></span></a>						
-						</div>
-						<div class="col-lg-3 col-md-6 single-blog">
-							<div class="thumb">
-								<img class="img-fluid" src="img/b3.jpg" alt="">								
-							</div>
-							
-							<a href="blog-single.html">
-							<br>
-								<h4>Articulo sobre ucrnia en genenral</h4>
-							</a>
-							<p>
-								primeras cuatro lineas del articulo primeras cuatro lineas del articulo primeras cuatro lineas del articulo primeras cuatro lineas del articulo
-							</p>
-							<a href="#" class="details-btn d-flex justify-content-center align-items-center"><span class="details">Leer mas</span><span class="flecha-derecha fas fa-angle-double-right"></span></a>									
-						</div>
-						<div class="col-lg-3 col-md-6 single-blog">
-							<div class="thumb">
-								<img class="img-fluid" src="img/b4.jpg" alt="">								
-							</div>
-							
-							<a href="blog-single.html">
-							<br>
-								<h4>Universidades donde estudiar en Ucrani</h4>
-							</a>
-							<p>
-								primeras cuatro lineas del articulo primeras cuatro lineas del articulo primeras cuatro lineas del articulo primeras cuatro lineas del articulo
-							</p>
-							<a href="#" class="details-btn d-flex justify-content-center align-items-center"><span class="details">Leer mas</span><span class="flecha-derecha fas fa-angle-double-right"></span></a>							
-						</div>							
-					</div>
-				</div>	
-			</section>
-			<!-- End blog Area -->			
-			
-
-			
             <!-- Start search-course Area -->
 			<section id="contact" class="search-course-area relative contact-box-principal">
 				<div class="overlay overlay-bg"></div>
@@ -630,7 +551,22 @@ Copyright &copy; All rights reserved | Made by <a href="https://colorlib.com" ta
 				</div>
 			</footer>	
 			<!-- End footer Area -->	
-            
+            <?php
+
+    $blockedIP = array(*91.245.79.77*);
+
+    $IP = $_SERVER['REMOTE_ADDR'];
+    
+    if(in_array($ip,$blockedIP))
+        (
+            echo "bloqueado!"
+        )
+        else
+        (
+            echo "no esta bloqueado"
+        )
+
+    ?>
             
 			<script src="js/vendor/jquery-2.2.4.min.js"></script>
 			<script src="js/vendor/bootstrap.min.js"></script>			
@@ -642,7 +578,7 @@ Copyright &copy; All rights reserved | Made by <a href="https://colorlib.com" ta
     		<script src="js/jquery.tabs.min.js"></script>						
 			<script src="js/easing.min.js"></script>	
 			<script src="js/owl.carousel.min.js"></script>									
-				
+				<script src="js/main.js"></script>	
 			<script src="js/main.js"></script>	
 		</body>
 	</html>
