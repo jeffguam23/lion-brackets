@@ -15,11 +15,16 @@
     padding-top: 10px;
     border-bottom: 0.5px solid #39353e;
 }
+@media (max-width: 480px){
+    #mobile-nav-toggle {
+        top: 45px;
+    }
+}
 #mobile-nav-toggle {
-    top: 15px;
+    
     font-size: 38px;
-    position: fixed;
-    right: 0px;
+   
+    
 }
 
 #header #logo img {
@@ -40,9 +45,9 @@
 }
 
 .banner-area {
-    background: url(../img/banner-bg.jpg) right;
+    background: url(../img/politecnica-lviv.jpg) right;
     background-size: cover;
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;    
       
 }
@@ -166,10 +171,10 @@
    
     
     .nav-menu a:hover{
-    font-size: 20px;
+   
     transition-duration: .2s;
     background-color: #FFF;
-    padding: 10px;
+    
         
     }
    .banner-area {
@@ -283,4 +288,75 @@
 }
 .icons-area-info {
     padding: 0px 0px;
+}
+
+.stat {
+   margin:40px auto;
+   text-align:center;
+}
+.highlight {
+   color:#104880;
+   display:block;
+   overflow:hidden;
+   margin-bottom:0;
+   font-size:48px;
+}
+.stat i {
+	color:#f7c221;
+        padding-top: 15px;
+}
+.milestone-details {
+   font-weight:bold;
+   font-size:18px;
+   color:#999;
+}
+.titulo-header a{
+    text-decoration: none;
+    color: white
+}
+.info-area .info-area-right h1{
+    color:#104880
+}
+.accordion a{
+    font-size: 23px
+}
+.review-area h1{
+    color:#104880
+}
+.mb-10{
+    color:#104880
+}
+.search-course-area{
+    margin-top: 0px
+}
+.footer-bottom-area{
+    background-color: #001023;
+    padding: 15px 0px;
+    color: #FFF
+}
+.footer-area {
+    padding-bottom: 0px
+}
+.header-top ul{
+    margin-bottom: 0px;
+}
+.footer-area .container{
+    padding: 40px 15px
+}
+.nav-menu>li {
+    margin-left: 0px;
+}
+.area-contador{
+    background: url(../img/banner-bg.jpg) right no-repeat;     
+    background-attachment: fixed;  
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat; 
+}
+
+.area-contador .overlay-bg {
+    background: rgba(4,9,30,0.6);
+}
+.review-area {
+    background: rgba(4, 9, 30, 0.12);
 }

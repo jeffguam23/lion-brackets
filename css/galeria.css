@@ -12,12 +12,6 @@
     padding-top: 10px;
     border-bottom: 0.5px solid #39353e;
 }
-#mobile-nav-toggle {
-    top: 15px;
-    font-size: 38px;
-    position: fixed;
-    right: 0px;
-}
 
 #header #logo img {
         max-height: 60px
@@ -95,9 +89,9 @@
     background: rgba(4,9,30,0.4);
 }
 
-@media only screen and (min-width:768px){
-    .titulo-header h5{
-    font-size: 1.2rem;
+@media only screen and (min-width: 768px){
+    .titulo-header h5 {
+    font-size: 1.09rem;
     }
     
     .titulo-header h4{
@@ -105,10 +99,10 @@
     }    
     
     .nav-menu a:hover{
-    font-size: 20px;
+   
     transition-duration: .2s;
     background-color: #FFF;
-    padding: 10px;
+    
         
     }
 }
@@ -120,10 +114,49 @@
         background-attachment: scroll;
     }
 }
+@media (max-width: 480px){
+    #mobile-nav-toggle {
+        top: 55px;
+    }
+}
+@media (min-width: 480px){
+    #mobile-nav-toggle {
+    top: 75px;  
+    }
+}
+#mobile-nav-toggle {
+    font-size: 38px;  
+    
+}
+.titulo-header a {
+    text-decoration: none;
+    color: white;
+}
 
+.nav-menu a{
+    text-decoration: none;
+    padding: 5px 8px;
+}
+    .titulo-header a{
+    text-decoration: none;
+    color: white
+}
 
+.footer-bottom-area{
+    background-color: #001023;
+    padding: 15px 0px;
+    color: #FFF
+}
+.footer-area {
+    padding-bottom: 0px
+}
+.header-top ul{
+    margin-bottom: 0px;
+}
+.footer-area .container{
+    padding: 40px 15px
+}
 
-
-
-
-
+.nav-menu>li {
+    margin-left: 0px;
+}
