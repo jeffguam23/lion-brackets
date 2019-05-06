@@ -477,10 +477,10 @@ img.img-decoration{
 
 .video-right{
     background:url(../img/video-bg.jpg) no-repeat center;
-    background-size:cover;height:330px
+    background-size:cover;height:450px
 }
 .video-right .overlay-bg{
-    background-color:rgba(34,34,34,0.2)
+    background-color:rgba(34,34,34,0.5)
 }
 .video-right .play-btn{
     z-index:2
@@ -498,4 +498,16 @@ img.img-decoration{
 
 .info-area .info-area-right{
     text-align: center
+}
+
+
+
+.video-right{
+border-style: solid;
+    border-width: 10px 10px 10px 10px;
+    border-color: #fff;
+    box-shadow: 0px 10px 30px 0px rgba(153,153,153,0.5);
+}
+.text-info-destino{
+    padding-top: 35px
 }
