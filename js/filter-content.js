@@ -3,12 +3,12 @@ $('.filters ul li').click(function() {
             $(this).addClass('active');
 
             var data = $(this).attr('data-filter');
-            $grid.isotope({
+            $flex.isotope({
                 filter: data
             })
         });
 
-        var $grid = $(".img-content").isotope({
+        var $flex = $(".img-content").isotope({
             itemSelector: ".all",
             percentPosition: false,
             masonry: {
