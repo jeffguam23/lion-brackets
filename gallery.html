@@ -117,10 +117,10 @@ estudiar en ucrania bandeira, estudiar en ucrania pais, ucrania ecuador, ecuador
 
             <div class="filters">
                 <ul>
-                    <li  class="active" data-filter=".all">Todo</li>
+                    <li data-filter=".all">Todo</li>
                     <li data-filter=".personas">Personas</li>
                     <li data-filter=".ucrania">Ucrania</li>
-                    <li data-filter=".universidades">Universidades</li>
+                    <li class="active" data-filter=".universidades">Universidades</li>
                     <li data-filter=".kiev">Kiev</li>
                     <li data-filter=".lviv">Lviv</li>
                     <li data-filter=".odesa">Odesa</li>
@@ -128,7 +128,7 @@ estudiar en ucrania bandeira, estudiar en ucrania pais, ucrania ecuador, ecuador
             </div>
 
             <div class="filters-content">
-                <div class="grid">
+                <div class="img-content">
                 <div class="row">
                     
                
@@ -1440,11 +1440,11 @@ estudiar en ucrania bandeira, estudiar en ucrania pais, ucrania ecuador, ecuador
             })
         });
 
-        var $grid = $(".grid").isotope({
+        var $grid = $(".img-content").isotope({
             itemSelector: ".all",
             percentPosition: true,
             masonry: {
-                columnWidth: ".universidades"
+                columnWidth: ".all"
             }
         })
     </script>
