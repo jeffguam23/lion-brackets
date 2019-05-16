@@ -10,8 +10,9 @@ $('.filters ul li').click(function() {
 
         var $grid = $(".img-content").isotope({
             itemSelector: ".all",
-            percentPosition: true,
+            percentPosition: false,
             masonry: {
                 columnWidth: ".all"
             }
         })
+    
