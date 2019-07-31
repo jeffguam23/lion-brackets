@@ -234,3 +234,11 @@
 .section.portfolio .filters-content .item img {
   width: 100%;
 }
+
+.container {
+    height: auto;
+}
+.single-imgs{
+    position: relative
+    
+}
