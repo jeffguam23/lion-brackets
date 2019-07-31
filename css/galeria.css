@@ -233,12 +233,9 @@
 }
 .section.portfolio .filters-content .item img {
   width: 100%;
+    position: static
 }
 
 .container {
     height: auto;
-}
-.single-imgs{
-    position: relative
-    
 }
