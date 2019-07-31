@@ -10,7 +10,7 @@ $('.filters ul li').click(function() {
 
         var $flex = $(".img-content").isotope({
             itemSelector: ".all",
-            percentPosition: false,
+            percentPosition: true,
             masonry: {
                 columnWidth: ".all"
             }
