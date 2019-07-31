@@ -3,14 +3,14 @@ $('.filters ul li').click(function() {
             $(this).addClass('active');
 
             var data = $(this).attr('data-filter');
-            $flex.isotope({
+            $grid.isotope({
                 filter: data
             })
         });
 
-        var $flex = $(".img-content").isotope({
+        var $grid = $(".img-content").isotope({
             itemSelector: ".all",
-            percentPosition: true,
+            percentPosition: false,
             masonry: {
                 columnWidth: ".all"
             }
