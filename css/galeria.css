@@ -240,3 +240,6 @@
     height: auto;
 }
 
+.img-content{
+    display: block; 
+}
